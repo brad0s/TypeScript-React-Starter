@@ -19,6 +19,11 @@
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true
   },
+  "include": [
+    "./src/**/*.ts",
+    "./typings/**/*.d.ts",
+    "./node_modules/@my-company/ts-build-tools/shared/typings/**/*.d.ts"
+  ],
   "exclude": [
     "node_modules",
     "build",
